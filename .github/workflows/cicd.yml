@@ -2,9 +2,9 @@ name: CI/CD for Dockerized Flask App
 
 on:
   push:
-    branches: [ main ]
+    branches: [ ansar ]
   pull_request:
-    branches: [ main ]
+    branches: [ ansar ]
 
 jobs:
   dockerbuild:
