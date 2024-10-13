@@ -33,7 +33,7 @@ jobs:
 
      - name: Run tests
        run: |
-        Pytest
+        pytest
 
   build-and-publish:
     needs: build-and-test
